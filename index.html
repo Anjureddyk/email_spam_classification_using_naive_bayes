@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Spam Classification</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Email Spam Classification</h1>
+    <div class="container">
+        <form action="/classify" method="POST">
+            <label for="email_content">Email Content:</label>
+            <textarea name="Body" id="email_content" rows="4" cols="50"></textarea>
+            <input type="submit" value="verify">
+        </form>
+    </div>
+</body>
+</html>
+
+

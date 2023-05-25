@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 150px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .result .classification {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .result .classification.spam {
+    color: #ff0000;
+  }
+  
+  .result .classification.not-spam {
+    color: #008000;
+  }
+  
+  /* Make the form elements more interactive */
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Add some animation to the submit button */
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+    transition: 0.5s;
+  }
+  
+  /* Add some styling to the classification result */
+  
+  .result .classification {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  
+  .result .classification.spam {
+    background-color: #ff0000;
+  }
+  
+  .result .classification.not-spam {
+    background-color: #06f606;
+  }
+  
