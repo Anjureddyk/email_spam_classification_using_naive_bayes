@@ -1,12 +1,33 @@
 # email_spam_classification_using_naive_bayes
 This code is a Flask application that can be used to classify email messages as spam or not spam. The application uses a Naive Bayes classifier that is trained on a dataset of spam and not spam email messages. 
 
-The code is a Flask application that can be used to classify email messages as spam or not spam. The application uses a Naive Bayes classifier that is trained on a dataset of spam and not spam email messages. To use the application, the user enters the text of an email message into a text area and then clicks on the "classify" button. The application then classifies the email message as spam or not spam and displays the classification result on the screen.
+## Features
+Integration with Flask web framework for seamless user interaction.
 
-The application is written in Python and uses the Flask web framework. The code is well-organized and easy to read. The application is also easy to use. The user interface is simple and straightforward.The application can be used to help users to identify spam email messages. This can help to reduce the amount of spam that users receive. The application can also be used to train a Naive Bayes classifier on a new dataset of spam and not spam email messages.The application is divided into two main parts: the front-end and the back-end. The front-end is the user interface that the user interacts with. The back-end is the part of the application that does the classification.
+Utilization of the Naive Bayes classifier, specifically the Multinomial Naive Bayes algorithm, known for its effectiveness in text classification tasks.
 
-The front-end is written in HTML, CSS, and JavaScript. The HTML provides the structure of the page, the CSS provides the styling, and the JavaScript provides the interactivity.The back-end is written in Python. The Python code uses the Flask web framework to create a web application. The Flask web framework makes it easy to create web applications in Python.The application uses a Naive Bayes classifier to classify email messages as spam or not spam. A Naive Bayes classifier is a statistical classification algorithm that is based on the Bayes theorem. The Bayes theorem is a mathematical formula that can be used to calculate the probability of an event occurring given the probability of other events occurring.
+Preprocessing of training data using pandas to handle missing values.
 
-The Naive Bayes classifier is trained on a dataset of spam and not spam email messages. The training data is used to calculate the probability of each word in the email message being spam or not spam. When a new email message is classified, the Naive Bayes classifier calculates the probability of each word in the email message being spam or not spam. The email message is then classified as spam if the probability of it being spam is greater than the probability of it being not spam.
+Conversion of textual data into numerical features using the CountVectorizer from scikit-learn.
 
-The application is a useful tool for identifying spam email messages. The application is easy to use and can be used to reduce the amount of spam that users receive.
+Training the classifier on a labeled dataset of spam and non-spam emails.
+
+Real-time classification of incoming emails based on learned patterns and characteristics.
+
+Mapping of classification results to human-readable labels (Spam or Not Spam).
+
+Evaluation of system performance using metrics such as accuracy, precision, recall, and F1-score.
+
+Robustness to imbalanced datasets and generalizability across various email sources and formats.
+
+## Requirements
+Python (>=3.6)
+
+Flask (>=2.0.0)
+
+scikit-learn (>=0.24.0)
+
+pandas (>=1.2.0)
+
+
+
